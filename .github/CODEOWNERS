@@ -1,0 +1,19 @@
+# CODEOWNERS — both maintainers review every PR by default.
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default: any change requires review from both maintainers
+*       @Guembri01 @wissalbenothmen
+
+# Architecture & infrastructure
+/docker-compose.yml       @Guembri01 @wissalbenothmen
+/.github/                 @Guembri01 @wissalbenothmen
+
+# Backend
+/backend/                 @Guembri01 @wissalbenothmen
+
+# Frontend
+/frontend/                @Guembri01 @wissalbenothmen
+
+# Documentation
+/README.md                @Guembri01 @wissalbenothmen
+/docs/                    @Guembri01 @wissalbenothmen
