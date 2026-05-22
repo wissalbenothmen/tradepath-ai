@@ -9,7 +9,7 @@ python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
 python-multipart==0.0.12
 httpx==0.28.1
-openai==1.58.1
+openai==2.38.0
 azure-ai-documentintelligence==1.0.0
 azure-storage-blob==12.23.1
 celery==5.4.0
