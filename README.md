@@ -70,27 +70,27 @@ flowchart LR
 
 ### Shipments list
 
-<img src="docs/screenshots/03_shipments.png" alt="Shipments list with status and lane filters." width="640">
+<img src="docs/screenshots/09_shipments.png" alt="Shipments list with status and lane filters." width="640">
 
 ### Shipments filtered (blocked)
 
-<img src="docs/screenshots/04_blocked_filter.png" alt="Shipments filtered to blocked status." width="640">
+<img src="docs/screenshots/10_blocked_filter.png" alt="Shipments filtered to blocked status." width="640">
 
 ### Sanctions screening
 
-<img src="docs/screenshots/05_sanctions_screening.png" alt="Sanctions screening view." width="640">
+<img src="docs/screenshots/07_sanctions_screening.png" alt="Sanctions screening view." width="640">
 
 ### Documents OCR
 
-<img src="docs/screenshots/06_documents_ocr.png" alt="Documents OCR processing for trade documents." width="640">
+<img src="docs/screenshots/08_documents_ocr.png" alt="Documents OCR processing for trade documents." width="640">
 
 ### HS classification
 
-<img src="docs/screenshots/07_hs_classification.png" alt="HS classification helper page." width="640">
+<img src="docs/screenshots/05_hs_classification.png" alt="HS classification helper page." width="640">
 
 ### Command palette (AI-filtered)
 
-<img src="docs/screenshots/08_command_palette.png" alt="Command palette filtered by AI compliance workflow." width="640">
+<img src="docs/screenshots/11_command_palette.png" alt="Command palette filtered by AI compliance workflow." width="640">
 
 ## Stack
 
