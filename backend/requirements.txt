@@ -16,7 +16,7 @@ celery==5.4.0
 redis==5.2.1
 elasticsearch[async]==8.13.2
 python-Levenshtein==0.26.1
-pandas==2.2.3
+pandas==3.0.3
 openpyxl==3.1.5
 pytest==8.3.4
 pytest-asyncio==0.24.0
