@@ -1,0 +1,54 @@
+# Dependabot configuration — version 2
+# - Security updates: enabled at the repo level via the GitHub API.
+# - Version updates: scheduled here.
+# - Grouped updates: keeps PR noise low by bundling related deps per ecosystem.
+# Docs: https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot-yml-file
+
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/backend"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Europe/Paris"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "pip"
+    commit-message:
+      prefix: "deps(pip)"
+      include: "scope"
+    reviewers:
+      - "Guembri01"
+    groups:
+      python-deps:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+  - package-ecosystem: "npm"
+    directory: "/frontend"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Europe/Paris"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "npm"
+    commit-message:
+      prefix: "deps(npm)"
+      include: "scope"
+    reviewers:
+      - "Guembri01"
+    groups:
+      javascript-deps:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
